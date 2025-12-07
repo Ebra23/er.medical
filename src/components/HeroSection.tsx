@@ -17,7 +17,7 @@ const HeroSection = () => {
       <div className="relative z-10 container-custom mx-auto px-4 md:px-8 pt-20">
         <div className="max-w-xl animate-fade-in-up">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-semibold leading-tight mb-6 text-foreground">
-            Premium Dental Care in the Heart of Budapest
+            Achieve Your Dream Smile: Affordable Dental Treatments in Hungary & Turkey
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
             Experience world-class dental treatment at Medicare Dental Clinic — combining high quality, affordability, and a dedicated team to make your dental journey seamless.
