@@ -27,7 +27,7 @@ const benefits = [
 
 const TourismSection = () => {
   return (
-    <section id="tourism" className="section-padding bg-dark-lighter">
+    <section id="tourism" className="section-padding bg-background">
       <div className="container-custom mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-heading font-semibold mb-4 text-foreground">
@@ -73,7 +73,7 @@ const TourismSection = () => {
               alt="Budapest Chain Bridge and Parliament"
               className="rounded-xl shadow-2xl w-full"
             />
-            <div className="absolute bottom-4 left-4 right-4 bg-dark/90 backdrop-blur-sm rounded-lg p-4">
+            <div className="absolute bottom-4 left-4 right-4 bg-background/95 backdrop-blur-sm rounded-lg p-4 shadow-lg border border-border">
               <h4 className="text-lg font-heading font-semibold text-foreground mb-1">
                 Budapest: The Pearl of the Danube
               </h4>

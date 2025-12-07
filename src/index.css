@@ -40,9 +40,10 @@
     --gold: 43 71% 47%;
     --gold-light: 43 71% 55%;
     --gold-dark: 43 71% 38%;
-    --dark: 0 0% 12%;
-    --dark-lighter: 0 0% 18%;
-    --dark-card: 0 0% 15%;
+    --dark: 0 0% 20%;
+    --dark-lighter: 0 0% 97%;
+    --dark-card: 0 0% 100%;
+    --section-alt: 0 0% 97%;
 
     --font-heading: 'Playfair Display', serif;
     --font-body: 'Inter', sans-serif;
