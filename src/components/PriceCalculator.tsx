@@ -45,7 +45,7 @@ const PriceCalculator = () => {
   const progress = ((currentQuestion + 1) / questions.length) * 100;
 
   return (
-    <section id="prices" className="section-padding bg-dark">
+    <section id="prices" className="section-padding bg-muted">
       <div className="container-custom mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-heading font-semibold mb-4 text-foreground">
@@ -56,7 +56,7 @@ const PriceCalculator = () => {
           </p>
         </div>
 
-        <div className="max-w-2xl mx-auto bg-dark-card border border-border/10 rounded-2xl p-6 md:p-10">
+        <div className="max-w-2xl mx-auto bg-background border border-border rounded-2xl p-6 md:p-10 shadow-sm">
           {/* Header */}
           <div className="flex items-center justify-between mb-6">
             <span className="text-gold font-medium">Treatment Price Calculator</span>
@@ -66,7 +66,7 @@ const PriceCalculator = () => {
           </div>
 
           {/* Progress Bar */}
-          <div className="h-1 bg-dark-lighter rounded-full mb-8 overflow-hidden">
+          <div className="h-1 bg-muted rounded-full mb-8 overflow-hidden">
             <div
               className="h-full bg-gold transition-all duration-300"
               style={{ width: `${progress}%` }}
@@ -87,7 +87,7 @@ const PriceCalculator = () => {
                 className={`p-4 rounded-xl border transition-all text-left ${
                   answers[currentQuestion] === index
                     ? "border-gold bg-gold/10"
-                    : "border-border/10 hover:border-gold/30"
+                    : "border-border hover:border-gold/50"
                 }`}
               >
                 <span className="text-2xl mb-2 block">{option.emoji}</span>

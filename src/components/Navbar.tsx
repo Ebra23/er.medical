@@ -14,13 +14,13 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-dark/95 backdrop-blur-sm border-b border-gold/10">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container-custom mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-3">
             <div className="w-8 h-8 bg-gold rounded-sm flex items-center justify-center">
-              <span className="text-dark font-bold text-lg">M</span>
+              <span className="text-background font-bold text-lg">M</span>
             </div>
             <div className="hidden sm:block">
               <span className="text-gold font-heading text-xl font-semibold tracking-wide">MEDICARE</span>
@@ -34,7 +34,7 @@ const Navbar = () => {
               <a
                 key={item.label}
                 href={item.href}
-                className="text-foreground/80 hover:text-gold transition-colors text-sm font-medium"
+                className="text-foreground/70 hover:text-gold transition-colors text-sm font-medium"
               >
                 {item.label}
               </a>
@@ -60,14 +60,14 @@ const Navbar = () => {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="lg:hidden py-4 border-t border-gold/10">
+          <div className="lg:hidden py-4 border-t border-border">
             <div className="flex flex-col gap-4">
               {navItems.map((item) => (
                 <a
                   key={item.label}
                   href={item.href}
                   onClick={() => setIsOpen(false)}
-                  className="text-foreground/80 hover:text-gold transition-colors text-sm font-medium py-2"
+                  className="text-foreground/70 hover:text-gold transition-colors text-sm font-medium py-2"
                 >
                   {item.label}
                 </a>

@@ -30,7 +30,7 @@ const Counter = ({ end, suffix = "", duration = 2000 }: CounterProps) => {
 
 const AboutSection = () => {
   return (
-    <section id="about" className="section-padding bg-dark">
+    <section id="about" className="section-padding bg-background">
       <div className="container-custom mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Image */}
@@ -41,7 +41,7 @@ const AboutSection = () => {
               className="rounded-xl shadow-2xl w-full"
             />
             {/* Years Badge */}
-            <div className="absolute -top-4 -right-4 md:top-8 md:-right-8 bg-gold text-dark rounded-xl p-4 md:p-6 shadow-xl">
+            <div className="absolute -top-4 -right-4 md:top-8 md:-right-8 bg-gold text-background rounded-xl p-4 md:p-6 shadow-xl">
               <div className="text-3xl md:text-4xl font-bold font-heading">26+</div>
               <div className="text-sm font-medium">Years Excellence</div>
             </div>

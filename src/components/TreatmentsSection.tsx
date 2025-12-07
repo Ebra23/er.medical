@@ -27,7 +27,7 @@ const treatments = [
 
 const TreatmentsSection = () => {
   return (
-    <section id="treatments" className="section-padding bg-dark">
+    <section id="treatments" className="section-padding bg-background">
       <div className="container-custom mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-heading font-semibold mb-4 text-foreground">
@@ -42,9 +42,9 @@ const TreatmentsSection = () => {
           {treatments.map((treatment, index) => (
             <div
               key={index}
-              className="group bg-dark-card border border-border/10 rounded-xl overflow-hidden hover-lift transition-all duration-300 hover:border-gold/30"
+              className="group bg-background border border-border rounded-xl overflow-hidden hover-lift transition-all duration-300 hover:border-gold/50 hover:shadow-lg"
             >
-              <div className="p-6 bg-gradient-to-b from-muted/5 to-transparent flex items-center justify-center h-48">
+              <div className="p-6 bg-muted/50 flex items-center justify-center h-48">
                 <img
                   src={treatment.image}
                   alt={treatment.title}

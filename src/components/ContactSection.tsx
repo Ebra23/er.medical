@@ -32,7 +32,7 @@ const ContactSection = () => {
   ];
 
   return (
-    <section id="contact" className="section-padding bg-dark-lighter">
+    <section id="contact" className="section-padding bg-muted">
       <div className="container-custom mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-heading font-semibold mb-4 text-foreground">
@@ -102,7 +102,7 @@ const ContactSection = () => {
               </div>
             </div>
 
-            <div className="bg-dark-card border border-border/10 rounded-xl p-6">
+            <div className="bg-background border border-border rounded-xl p-6">
               <h4 className="font-semibold text-foreground mb-4">Why Choose Us?</h4>
               <ul className="space-y-3">
                 {benefits.map((benefit, index) => (
@@ -116,7 +116,7 @@ const ContactSection = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-dark-card border border-border/10 rounded-xl p-6 md:p-8">
+          <div className="bg-background border border-border rounded-xl p-6 md:p-8 shadow-sm">
             <h3 className="text-xl font-heading font-semibold mb-6 text-foreground">
               Send Us a Message
             </h3>
@@ -167,7 +167,7 @@ const ContactSection = () => {
                 <select
                   value={formData.treatment}
                   onChange={(e) => setFormData({ ...formData, treatment: e.target.value })}
-                  className="w-full h-10 px-3 bg-dark border border-input rounded-md text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-gold"
+                  className="w-full h-10 px-3 bg-background border border-input rounded-md text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-gold"
                 >
                   <option value="">Select Treatment</option>
                   <option value="implants">Dental Implants</option>

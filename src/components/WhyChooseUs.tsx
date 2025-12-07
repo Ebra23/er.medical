@@ -25,7 +25,7 @@ const features = [
 
 const WhyChooseUs = () => {
   return (
-    <section className="section-padding bg-dark-lighter">
+    <section className="section-padding bg-muted">
       <div className="container-custom mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-heading font-semibold mb-4 text-foreground">
@@ -40,7 +40,7 @@ const WhyChooseUs = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-dark-card border border-border/10 rounded-xl p-6 hover-lift transition-all duration-300 hover:border-gold/30"
+              className="bg-background border border-border rounded-xl p-6 hover-lift transition-all duration-300 hover:border-gold/50 hover:shadow-lg"
             >
               <div className="w-12 h-12 bg-gold/10 rounded-lg flex items-center justify-center mb-4">
                 <feature.icon className="w-6 h-6 text-gold" />
