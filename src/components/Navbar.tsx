@@ -23,8 +23,7 @@ const Navbar = () => {
               <span className="text-background font-bold text-lg">M</span>
             </div>
             <div className="hidden sm:block">
-              <span className="text-gold font-heading text-xl font-semibold tracking-wide">MEDICARE</span>
-              <span className="block text-gold/70 text-[10px] tracking-[0.2em] uppercase -mt-1">Dental Clinic</span>
+              <span className="text-gold font-heading text-xl font-semibold tracking-wide">ER Medical</span>
             </div>
           </a>
 
